@@ -61,4 +61,5 @@ def create_onnx_file(model_name, output_filename):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("Starting server...")
+    app.run(host="0.0.0.0", port=5000)
